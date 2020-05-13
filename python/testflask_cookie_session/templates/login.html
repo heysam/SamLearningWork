@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<form action="{{ url_for('blue_cookie.login')}}" method="post">
+    <span>用戶名：</span><input type="text" name="username" placeholder="請輸入用戶名">
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>
