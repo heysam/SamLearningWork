@@ -1,0 +1,22 @@
+{%extends 'B.html' %}
+
+{% block header %}
+    {{ super() }}
+    <h2>header 因為B.html也有header所以會被覆蓋故要加super()</h2>
+{% endblock %}
+
+<!---當B和C皆有CSS時要super--->
+{% block extCSS %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/c.css') }}">
+{% endblock %}
+
+
+{%block content %}
+    <h3>content 繼承自B，B繼承自A，故上一行來自B.html</h3>
+
+    <h6>以下include d.html</h6>
+    <!--- include性能較低--->
+    {% include 'd.html' %}
+
+{% endblock %}

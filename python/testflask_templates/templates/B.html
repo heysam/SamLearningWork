@@ -1,0 +1,11 @@
+{%extends 'A.html' %}
+
+{% block extCSS %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/b.css') }}">
+{% endblock %}
+
+
+
+{%block header %}
+    <h2>header 繼承自A</h2>
+{% endblock %}
