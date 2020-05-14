@@ -48,3 +48,76 @@ extends
     {{super}}
 
 挖坑繼承體現的是化整為零的操作
+#--------------------------------------------#
+反向解析
+1.url_for
+2.使用在app中
+    url_for('endpoint')
+    endpoint默認是函數的名子
+3.使用blueprint中
+    url_for('bluename.endpoint')
+    藍圖名.函數名
+4.獲取靜態資源路徑
+    url_for('static',filename='path')
+    static 資源
+    path相對於資源的相對路徑
+#--------------------------------------------#
+模板
+1.用來快速生成html頁面
+2.模板主要由兩部分構成
+    靜態html
+    模板語法
+3.模板語法
+    {{ var }}
+    {{% tag %}}
+4.結構標籤
+    block
+            規劃型標籤
+            首次出現挖坑
+            非首次填坑
+            多次填坑會出現覆蓋，不想覆蓋用{{super()}}
+    extends
+    include
+            包含
+            能用block + extends實現的，就盡量別用 include
+    macro
+            宏定義
+            可以在html中定義函數
+            還可以接受參數
+            通過調用函數生成html
+            支持導入操作
+                {% from xxx import yyy %}
+5.
+#循環--------------------------------------------#
+for
+    {% for item in cols %}
+        AA
+    {% else %}
+        BB
+    {% endfor %}
+可以使用python 一樣的for else
+也可以獲取循環信息loop
+loop.first
+loop.last
+loop.index loop.index0
+loop.revindex loop.revindex0
+#過濾器--------------------------------------------#
+變量
+    {{ 變量｜過濾器｜過濾器.....}}
+    capitalize  駝峰
+    lower
+    upper
+    title
+    trim 把前後空格去掉
+    reverse
+    format
+    striptags.渲染之前，將值中標籤去掉
+    safe
+    default
+    last
+    first
+    length
+    sum
+    sort
+    過濾器並不是先寫先執行
+    safe是最後才做的

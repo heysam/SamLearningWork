@@ -9,5 +9,25 @@
         <li>4</li>
         <li>5</li>
         <li>6</li>
+        <p style="clear: both"> </p>
     </ul>
+
+    {% macro mac() %}
+    <h4>macro mac()調用</h4>
+    {% endmacro %}
+    {{ mac() }}
+    {{ mac() }}
+
+    {% macro mac1(name,age) %}
+        <h3>mac1(name) = {{ name }} </h3>
+        <h4>mac1(age) = {{ age }} </h4>
+    {% endmacro %}
+    {{ mac1('Sam' ,28) }}
+
+
+    {% from 'E.html' import E_mac %}
+
+    {{ E_mac('這是D.html') }}
+    {{ E_mac('這是D.html') }}
+
 </div>

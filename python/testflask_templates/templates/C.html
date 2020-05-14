@@ -18,5 +18,73 @@
     <h6>以下include d.html</h6>
     <!--- include性能較低--->
     {% include 'd.html' %}
+<hr>
+    <h3>views.py C() 的List</h3>
+    <ol>
+    {% for L in  list %}
+        <li>{{ L }}</li>
+    {% endfor %}
+    </ol>
+<hr>
+    <h3>views.py C() 參數loop.revindex 倒敘</h3>
+    <ol>
+    {% for L in  list %}
+        <li>{{ L }}:{{ loop.revindex }}</li>
+    {% endfor %}
+    </ol>
+<hr>
+    <h3>views.py C() 參數loop.revindex0 從0開始</h3>
+    <ol>
+    {% for L in  list %}
+        <li>{{ L }}:{{ loop.revindex0 }}</li>
+    {% endfor %}
+    </ol>
+<hr>
+    <h3>views.py C() 參數loop.first if loop</h3>
+    <ol>
+    {% for L in  list %}
+        {% if loop.first %}
+            <li style="color: red">{{ L }}:{{ loop.revindex0 }}</li>
+        {% elif loop.list %}
+            <li style="color: green">{{ L }}:{{ loop.revindex0 }}</li>
+        {% else %}
+            <li style="color: blue">{{ L }}:{{ loop.revindex0 }}</li>
+        {% endif %}
+    {% endfor %}
+    </ol>
+<hr>
+    <h3>views.py C() 過濾器upper 全部變大寫 lower全部變小寫</h3>
+    <ol>
+    {% for L in  list %}
+        {% if loop.first %}
+            <li style="color: red">{{ L|upper }}:{{ loop.revindex0 }}</li>
+        {% elif loop.last %}
+            <li style="color: green">{{ L }}:{{ loop.revindex0 }}</li>
+        {% else %}
+            <li style="color: blue">{{ L|lower }}:{{ loop.revindex0 }}</li>
+        {% endif %}
+    {% endfor %}
+    </ol>
+<hr>
+    <h4> 沒有把標籤去掉</h4>
+    <p>{{ msg }}</p>
+<hr>
+    <h3> msg|striptags才有</h3>
+    <p>{{ msg|striptags }}</p>
+<hr>
+    <h3> msg|safe</h3>
+    <p>{{ msg|safe }}</p>
+<hr>
+    <h3>username|default('Sam')</h3>
+    <h3>{{ username|default('Sam') }}</h3>
+<hr>
+    <h3>msg|last</h3>
+    <h5>{{ msg|last }}</h5>
+<hr>
+    <h3>msg|first</h3>
+    <h4>{{ msg|first }}</h4>
+<hr>
+    <h3>msg|safe|reverse</h3>
+    <h3>{{ msg|safe|reverse }}</h3>
 
 {% endblock %}

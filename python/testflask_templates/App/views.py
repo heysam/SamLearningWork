@@ -26,5 +26,7 @@ def B():
 ###############
 @blue.route('/C/')
 def C():
-    return render_template('C.html')
+    list = ['Ll1', 'Ll2', 'Ll3', 'Ll4', 'Ll5'] #給C.html做for
+    msg = '<h2>views.py中的C() msg</h2>'
+    return render_template('C.html', list=list, msg=msg)
 
