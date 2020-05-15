@@ -1,0 +1,29 @@
+ORM##########################
+將對象的操作轉換為原生的SQL
+優點
+    易用性，可以有效減少重複
+    性能損耗少
+    設計靈活，可以輕鬆實現複雜查詢
+    移植性好
+python的ORM(SQLAlchemy)
+針對Flask支持
+    pip install flask-sqlalchemy
+
+連接數據庫####################
+數據庫連接
+    dialect+driver://username:password@host:port/database
+dialect 數據庫實現
+driver 數據庫的驅動
+username
+password
+host
+port
+database
+################################################################################
+manage                  views           model
+-------------        ------------    ----------------
+app   <---------------------------------db 初始化需要app
+                                        (寫成函數 調用的時候才會去加載)
+blue          ---->
+db 轉移到model            需要db ------>  db 
+                                            
