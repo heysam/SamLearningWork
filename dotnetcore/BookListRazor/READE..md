@@ -41,8 +41,9 @@ namespace BookListRazor.Model
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddRazorPages();
         }
-
-Ｍodel ApplicationDbContext.cs檔案
+```
+### Ｍodel ApplicationDbContext.cs檔案
+```C#
 namespace BookListRazor.Model
 {
     public class ApplicationDbContext : DbContext  //繼承
