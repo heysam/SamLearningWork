@@ -329,7 +329,9 @@ button加註asp-page-handler="Delete"，則IndexModel可宣告OnPostDelete()方�
             </thead>
         </table>
     </div>
-Index.cshtml.cs
+```
+### Index.cshtml.cs
+```
     public class IndexModel : PageModel
     {
         private readonly ApplicationDbContext _db;
@@ -384,10 +386,4 @@ function loadDataTable() {
 }
 
 ```
-
-
-
-
-
-
 
