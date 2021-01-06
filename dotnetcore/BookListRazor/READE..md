@@ -8,6 +8,15 @@
 ## Edit Page
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/pageEdit.png)
 
+使用Visual Studio for MAC 的IDE 創建一個 .NET core Project
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW1.jpg)
+.csproj
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW2.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW3.jpg)
+當NuGet新增套件時，這裡會跟著修改，右鍵編輯專案檔案可直接直接修改
+
+
+
 
 ### Ｍodel Book.cs檔案
 ```C#
@@ -51,7 +60,10 @@ namespace BookListRazor.Model
 ### Migtations
 在Nuget PackageManager Console 下command  
 add-migration [檔案名稱]   產生檔案  
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW4.jpg)
+
 update-database 更新創建到資料庫  
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW5.jpg)
 
 ### _Layout.cshtml
 ```HTML
@@ -134,6 +146,10 @@ update-database 更新創建到資料庫
     </div>
 </div>
 ```
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/pageCreate1.png)
+
+
+
 # CREATE
 ### index.html
 ```HTML
@@ -272,6 +288,8 @@ asp-validation-summary 驗證摘要標籤 asp-validation-summary="ModelOnly"
 ```
  [BindProperty] 的Attribute 與Model的Book Book 和.cshtml 的 asp-page、asp-route-id  呼應 
 
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/pageEdit1.png)
+
 # Delete
 ### Index.cshtml
 ```html
@@ -289,7 +307,9 @@ index.cshtml.cs
             return RedirectToPage("Index");
         }
 ```
-button加註asp-page-handler="Delete"，則IndexModel可宣告OnPostDelete()方法與其對應。  
+button加註asp-page-handler="Delete"，則IndexModel可宣告OnPostDelete()方法與其對應。   
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/pageDelete1.png)
+
 
 # DataTable 呈現資料表
 ###  Controllers\BookController.cs
@@ -386,4 +406,5 @@ function loadDataTable() {
 }
 
 ```
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/pageDataTable.png)
 
