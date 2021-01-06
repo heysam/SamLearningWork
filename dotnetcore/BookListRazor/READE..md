@@ -22,7 +22,7 @@
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW3.jpg)
 當NuGet新增套件時，這裡會跟著修改，右鍵編輯專案檔案可直接直接修改
 安裝的套件
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEWˊ.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW6.jpg)
 
 
 
