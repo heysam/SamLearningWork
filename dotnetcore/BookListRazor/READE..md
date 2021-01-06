@@ -1,11 +1,11 @@
 
-#List
+# List
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/pageBookList.png)
-#DataTable
+# DataTable
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/pageDataTable.png)
-#Create Page
+# Create Page
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/pageCreate.png)
-#Edit Page
+# Edit Page
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/pageEdit.png)
 
 
