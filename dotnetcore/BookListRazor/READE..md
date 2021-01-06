@@ -8,13 +8,21 @@
 ## Edit Page
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/pageEdit.png)
 
-使用Visual Studio for MAC 的IDE 創建一個 .NET core Project
+## 環境
+* IDE:Visual studio for Mac
+* Azure Data Studio
+* SQL: Docker MSSQL SERVER 2019
+* C# .netcore 3.1
+
+
+使用Visual Studio for MAC 的IDE 創建一個 .NET core Project 實現跨系統開發  
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW1.jpg)
 .csproj
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW2.jpg)
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW3.jpg)
 當NuGet新增套件時，這裡會跟著修改，右鍵編輯專案檔案可直接直接修改
-
+安裝的套件
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEWˊ.jpg)
 
 
 
@@ -60,6 +68,8 @@ namespace BookListRazor.Model
 ```
 ### Migtations
 在Nuget PackageManager Console 下command  
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW7.jpg)
+
 add-migration [檔案名稱]   產生檔案  
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW4.jpg)
 
