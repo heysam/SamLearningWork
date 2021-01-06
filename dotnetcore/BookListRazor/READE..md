@@ -308,7 +308,10 @@ asp-validation-summary 驗證摘要標籤 asp-validation-summary="ModelOnly"
 ### Index.cshtml
 ```html
 <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Are sure you want to delete?')" class="btn btn-danger btn-sm">Delete</button>
-index.cshtml.cs
+```
+
+### index.cshtml.cs
+```C#
         public async Task<IActionResult> OnPostDelete(int id)
         {
             var book = await _db.Book.FindAsync(id);
