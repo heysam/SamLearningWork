@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{180D4B18-4721-4FAE-926C-20343B0263DB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookListRazor/Program.cs">
+    <Files>
+      <File FileName="BookListRazor/Pages/BookList1/Index.cshtml" Line="33" Column="1" />
+      <File FileName="BookListRazor/Pages/BookList1/Index.cshtml.cs" />
+      <File FileName="BookListRazor/wwwroot/js/bookList.js" />
+      <File FileName="BookListRazor/Pages/BookList/Index.cshtml" />
+      <File FileName="BookListRazor/Pages/BookList/Create.cshtml" />
+      <File FileName="BookListRazor/Pages/BookList/Create.cshtml.cs" />
+      <File FileName="BookListRazor/Program.cs" Line="13" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookListRazor" expanded="True">
+            <Node name="BookListRazor" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="BookList" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BookListRazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../BookListRazor/Pages/BookList/Edit.cshtml.cs" line="13" column="26" endLine="13" endColumn="49" offsetX="-1" offsetY="-1" expression="db" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
