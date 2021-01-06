@@ -80,7 +80,7 @@ update-database 更新創建到資料庫
         }
     }
 ```
-#INDEX
+# INDEX
 ### Pages/BookList/Index.cshtml
 ```HTML
 @page
@@ -291,7 +291,7 @@ index.cshtml.cs
 ```
 button加註asp-page-handler="Delete"，則IndexModel可宣告OnPostDelete()方法與其對應。
 
-#DataTable 呈現資料表
+# DataTable 呈現資料表
 ###  Controllers\BookController.cs
 ```C#
    [Route("api/Book")]
