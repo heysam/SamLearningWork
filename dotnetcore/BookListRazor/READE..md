@@ -49,9 +49,9 @@ namespace BookListRazor.Model
 
 ```
 ### Migtations
-在Nuget PackageManager Console 下command
-add-migration [檔案名稱]   產生檔案
-update-database 更新創建到資料庫
+在Nuget PackageManager Console 下command  
+add-migration [檔案名稱]   產生檔案  
+update-database 更新創建到資料庫  
 
 ### _Layout.cshtml
 ```HTML
@@ -173,10 +173,10 @@ update-database 更新創建到資料庫
         }
     }
 ```
-IActionResult 接口 可返回任意型式的Action View、Object、string等
-Action也提供非同步(async)方式，將回傳包裝成Task<IactionResult>
-Async非同步方法:非同步對於可能在像是 Web 存取時會進行封鎖的活動而言相當重要。 存取 Web 資源的速度有時會變慢或延遲。 如果這類活動在同步處理序中遭到封鎖，整個應用程式就必須等候。 在非同步處理序中，應用程式可以繼續處理其他與 Web 資源不相關的工作，直到可能的封鎖工作完成。
-Async需搭配await，若沒有使用await運算子來標記暫停點，無論修飾子為何，方法都會已同步方法執行async
+IActionResult 接口 可返回任意型式的Action View、Object、string等  
+Action也提供非同步(async)方式，將回傳包裝成Task<IactionResult>  
+Async非同步方法:非同步對於可能在像是 Web 存取時會進行封鎖的活動而言相當重要。 存取 Web 資源的速度有時會變慢或延遲。 如果這類活動在同步處理序中遭到封鎖，整個應用程式就必須等候。 在非同步處理序中，應用程式可以繼續處理其他與 Web 資源不相關的工作，直到可能的封鎖工作完成。  
+Async需搭配await，若沒有使用await運算子來標記暫停點，無論修飾子為何，方法都會已同步方法執行async  
   
  ### Create.cshtml
  ```html
@@ -223,9 +223,9 @@ Async需搭配await，若沒有使用await運算子來標記暫停點，無論�
         </div>
     </form>
 ```
-asp-page 導向定義好的Page  asp-page="Index"
-asp-validation-for 驗證消息標籤 asp-validation-for="Book.Name"
-asp-validation-summary 驗證摘要標籤 asp-validation-summary="ModelOnly"
+asp-page 導向定義好的Page  asp-page="Index"  
+asp-validation-for 驗證消息標籤 asp-validation-for="Book.Name"  
+asp-validation-summary 驗證摘要標籤 asp-validation-summary="ModelOnly"  
 
 # Edit
 ### Index.cshtml
@@ -270,7 +270,7 @@ asp-validation-summary 驗證摘要標籤 asp-validation-summary="ModelOnly"
         }
     }
 ```
- [BindProperty] 的Attribute 與Model的Book Book 和.cshtml 的 asp-page、asp-route-id  呼應
+ [BindProperty] 的Attribute 與Model的Book Book 和.cshtml 的 asp-page、asp-route-id  呼應 
 
 # Delete
 ### Index.cshtml
@@ -289,7 +289,7 @@ index.cshtml.cs
             return RedirectToPage("Index");
         }
 ```
-button加註asp-page-handler="Delete"，則IndexModel可宣告OnPostDelete()方法與其對應。
+button加註asp-page-handler="Delete"，則IndexModel可宣告OnPostDelete()方法與其對應。  
 
 # DataTable 呈現資料表
 ###  Controllers\BookController.cs
