@@ -26,6 +26,7 @@
 
 
 
+# 從 Table的設計開始～一個全新的Models建起
 ### Ｍodel Book.cs檔案
 ```C#
 namespace BookListRazor.Model
@@ -66,7 +67,9 @@ namespace BookListRazor.Model
 }
 
 ```
+
 ### Migtations
+開始將在Models設計好的Table 加到
 在Nuget PackageManager Console 下command  
 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BookListRazor/BookListRazor/Images/githubpicture/NEW7.jpg)
 
