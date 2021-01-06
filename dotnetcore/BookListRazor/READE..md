@@ -134,7 +134,7 @@ update-database 更新創建到資料庫
     </div>
 </div>
 ```
-#CREATE
+# CREATE
 ### index.html
 ```HTML
  <a asp-page="Create" class="btn btn-info form-control text-white">Create New Book</a>
@@ -223,7 +223,6 @@ Async需搭配await，若沒有使用await運算子來標記暫停點，無論�
         </div>
     </form>
 ```
-    </form>
 asp-page 導向定義好的Page  asp-page="Index"
 asp-validation-for 驗證消息標籤 asp-validation-for="Book.Name"
 asp-validation-summary 驗證摘要標籤 asp-validation-summary="ModelOnly"
@@ -238,7 +237,7 @@ asp-validation-summary 驗證摘要標籤 asp-validation-summary="ModelOnly"
  <input type="hidden" asp-for="Book.Id" />
 ```
 ### Edit.cshtml.cs
-'''C#
+```C#
        public class EditModel : PageModel
     {
         private ApplicationDbContext _db;
@@ -270,7 +269,7 @@ asp-validation-summary 驗證摘要標籤 asp-validation-summary="ModelOnly"
             return RedirectToPage();
         }
     }
-'''
+```
  [BindProperty] 的Attribute 與Model的Book Book 和.cshtml 的 asp-page、asp-route-id  呼應
 
 # Delete
