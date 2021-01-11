@@ -1,16 +1,40 @@
 ﻿<Properties StartupConfiguration="{E61BB7A9-A8DC-4B45-B970-D6D94A403BED}|Default">
   <MonoDevelop.Ide.ItemProperties.BulkyBook PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BulkyBook/Areas/Admin/Views/Category/Index.cshtml">
+    <Files>
+      <File FileName="BulkyBook/Areas/Admin/Views/Categories/Index.cshtml" Line="39" Column="74" />
+      <File FileName="BulkyBook/Areas/Admin/Controllers/CategoryController.cs" Line="93" Column="27" />
+      <File FileName="BulkyBook/Areas/Admin/Views/Category/Index.cshtml" Line="24" Column="18" />
+      <File FileName="BulkyBook/Areas/Admin/Views/Category/Upsert.cshtml" Line="53" Column="49" />
+      <File FileName="BulkyBook/Views/Shared/_Layout.cshtml" Line="71" Column="15" />
+      <File FileName="BulkyBook.DataAccess/Repository/IRepository/IUnitOfWork.cs" Line="12" Column="1" />
+      <File FileName="BulkyBook.DataAccess/Repository/CategoryRepository.cs" Line="24" Column="18" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BulkyBook" expanded="True">
             <Node name="BulkyBook" expanded="True">
-              <Node name="wwwroot" expanded="True">
-                <Node name="images" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Category" expanded="True">
+                      <Node name="Index.cshtml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
-            <Node name="BulkyBook.Models" expanded="True" />
+            <Node name="BulkyBook.DataAccess" expanded="True">
+              <Node name="Repository" expanded="True">
+                <Node name="IRepository" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>

@@ -1,0 +1,55 @@
+@model BulkyBook.Models.Category
+@{
+    ViewData["Title"] = "Upsert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Create Category";
+}
+
+<form method="post">    
+    <div class="row p-3 border">
+        <div asp-validation-summary="ModelOnly" class="text-danager"></div>
+        @if (Model.Id != 0)
+        {
+            //edit
+            title = "Edit Category";
+        }
+        <div class="col-12 border-bottom">
+            <h2 class="text-primary">
+                @*Title*@
+                @title
+            </h2>
+        </div>
+        <div class="col-8" pt-4>
+            <div class="form-group row">
+                <div class="col-4">
+                    @*Name*@
+                    @*對應CategoryName*@
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-8">
+                    @*textbox for Name*@
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danager"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-8 offset-4">
+                    @*EDIT  |  BACK*@
+                    @if (Model.Id != 0)
+                    {
+                        <partial name="_EditAndBackToListButton" model="Model.Id"/>
+                    }
+                    else
+                    {
+                        <partial name="_CreateAndBackToListButton" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+}

@@ -188,3 +188,8 @@
 /Users/samjhuo/Projects/BulkyBook/BulkyBook/obj/Debug/net5.0/ref/BulkyBook.dll
 /Users/samjhuo/Projects/BulkyBook/BulkyBook/obj/Debug/net5.0/BulkyBook.pdb
 /Users/samjhuo/Projects/BulkyBook/BulkyBook/obj/Debug/net5.0/BulkyBook.genruntimeconfig.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook/obj/Debug/net5.0/Razor/Areas/Admin/Views/Categories/Index.cshtml.g.cs
+/Users/samjhuo/Projects/BulkyBook/BulkyBook/obj/Debug/net5.0/Razor/Areas/Admin/Views/Category/Index.cshtml.g.cs
+/Users/samjhuo/Projects/BulkyBook/BulkyBook/obj/Debug/net5.0/Razor/Areas/Admin/Views/Category/Upsert.cshtml.g.cs
+/Users/samjhuo/Projects/BulkyBook/BulkyBook/obj/Debug/net5.0/Razor/Views/Shared/_CreateAndBackToListButton.cshtml.g.cs
+/Users/samjhuo/Projects/BulkyBook/BulkyBook/obj/Debug/net5.0/Razor/Views/Shared/_EditAndBackToListButton.cshtml.g.cs
