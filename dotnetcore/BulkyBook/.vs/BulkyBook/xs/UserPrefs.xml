@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{E61BB7A9-A8DC-4B45-B970-D6D94A403BED}|Default">
+  <MonoDevelop.Ide.ItemProperties.BulkyBook PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BulkyBook" expanded="True">
+            <Node name="BulkyBook" expanded="True">
+              <Node name="wwwroot" expanded="True">
+                <Node name="images" selected="True" />
+              </Node>
+            </Node>
+            <Node name="BulkyBook.Models" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

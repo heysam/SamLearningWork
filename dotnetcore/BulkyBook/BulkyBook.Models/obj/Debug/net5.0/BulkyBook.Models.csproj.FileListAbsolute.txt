@@ -1,0 +1,12 @@
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/bin/Debug/net5.0/BulkyBook.Models.deps.json
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/bin/Debug/net5.0/BulkyBook.Models.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/bin/Debug/net5.0/ref/BulkyBook.Models.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/bin/Debug/net5.0/BulkyBook.Models.pdb
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/obj/Debug/net5.0/BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/obj/Debug/net5.0/BulkyBook.Models.AssemblyInfoInputs.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/obj/Debug/net5.0/BulkyBook.Models.AssemblyInfo.cs
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/obj/Debug/net5.0/BulkyBook.Models.csproj.CoreCompileInputs.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/obj/Debug/net5.0/BulkyBook.Models.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/obj/Debug/net5.0/ref/BulkyBook.Models.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/obj/Debug/net5.0/BulkyBook.Models.pdb
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Models/obj/Debug/net5.0/BulkyBook.Models.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/bin/Debug/net5.0/BulkyBook.Utility.deps.json
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/bin/Debug/net5.0/BulkyBook.Utility.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/bin/Debug/net5.0/ref/BulkyBook.Utility.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/bin/Debug/net5.0/BulkyBook.Utility.pdb
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/obj/Debug/net5.0/BulkyBook.Utility.csprojAssemblyReference.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/obj/Debug/net5.0/BulkyBook.Utility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/obj/Debug/net5.0/BulkyBook.Utility.AssemblyInfoInputs.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/obj/Debug/net5.0/BulkyBook.Utility.AssemblyInfo.cs
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/obj/Debug/net5.0/BulkyBook.Utility.csproj.CoreCompileInputs.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/obj/Debug/net5.0/BulkyBook.Utility.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/obj/Debug/net5.0/ref/BulkyBook.Utility.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.Utility/obj/Debug/net5.0/BulkyBook.Utility.pdb

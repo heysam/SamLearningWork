@@ -1,0 +1,17 @@
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/bin/Debug/net5.0/BulkyBook.DataAccess.deps.json
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/bin/Debug/net5.0/BulkyBook.DataAccess.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/bin/Debug/net5.0/ref/BulkyBook.DataAccess.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/bin/Debug/net5.0/BulkyBook.DataAccess.pdb
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/bin/Debug/net5.0/BulkyBook.Models.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/bin/Debug/net5.0/BulkyBook.Utility.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/bin/Debug/net5.0/BulkyBook.Models.pdb
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/bin/Debug/net5.0/BulkyBook.Utility.pdb
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/BulkyBook.DataAccess.csprojAssemblyReference.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/BulkyBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/BulkyBook.DataAccess.AssemblyInfoInputs.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/BulkyBook.DataAccess.AssemblyInfo.cs
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/BulkyBook.DataAccess.csproj.CoreCompileInputs.cache
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/BulkyBook.DataAccess.csproj.CopyComplete
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/BulkyBook.DataAccess.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/ref/BulkyBook.DataAccess.dll
+/Users/samjhuo/Projects/BulkyBook/BulkyBook.DataAccess/obj/Debug/net5.0/BulkyBook.DataAccess.pdb
