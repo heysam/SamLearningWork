@@ -34,7 +34,7 @@ wwwroot 下有Bootstrap js 等前端網頁頁面所使用的東西
 
 
 ### 功能流程
-* [CreateButton](#CreateButton) 
+[CreateButton](#CreateButton) 
 
 
 ### 遇到的問題排除
