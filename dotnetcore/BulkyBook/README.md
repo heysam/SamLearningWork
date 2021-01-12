@@ -16,21 +16,21 @@
 
 ## 目錄架構
 ### BulkyBook 下
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/tree.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/tree.jpg)
 Areas 下有各自的Area專案 專案下可以有各自的Controllers、Views等
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/treeAreas1.jpg)
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/treeAreas2.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/treeAreas1.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/treeAreas2.jpg)
 Views 下有可設定整個網頁的_Layout還有部分檢視的部分等
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/treeView1.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/treeView1.jpg)
 wwwroot 下有Bootstrap js 等前端網頁頁面所使用的東西
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/treeWwwroot.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/treeWwwroot.jpg)
 #### BulkyBook.DataAccess 下
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/treeDataAccessDB.jpg)
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/treeDataAccessRepository.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/treeDataAccessDB.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/treeDataAccessRepository.jpg)
 #### BulkyBook.Models 下
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/treeModels.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/treeModels.jpg)
 #### BulkyBook.Utility 下
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/treeUtility.jpg)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/treeUtility.jpg)
 
 
 ### 功能流程
@@ -38,8 +38,8 @@ wwwroot 下有Bootstrap js 等前端網頁頁面所使用的東西
 
 
 ### 遇到的問題排除
-* 目前卡在Areas新增 Scaffolder add MVC view controller using EF 無法選擇 Models下的Category models 先以手動新增頁面 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/error1.jpg)
-* .reload 錯誤 Delete Jquery 無法正確從讀DataTable資料，確認DataTable是否正確Function![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/error2.jpg)![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/error3.jpg)
+* 目前卡在Areas新增 Scaffolder add MVC view controller using EF 無法選擇 Models下的Category models 先以手動新增頁面 ![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/error1.jpg)
+* .reload 錯誤 Delete Jquery 無法正確從讀DataTable資料，確認DataTable是否正確Function![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/error2.jpg)![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/error3.jpg)
 
 
 
@@ -47,7 +47,7 @@ wwwroot 下有Bootstrap js 等前端網頁頁面所使用的東西
 #CreateButton
 ### Category\Index.cshtml
 Create New Category button
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/pageCategory.png)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/pageCategory.png)
 ```
     <div class="col-6 text-right">
         <a class="btn btn-primary" asp-action="Upsert"><i class="fas fa-plus"></i> &nbsp; Create New Category</a>
@@ -55,7 +55,7 @@ Create New Category button
 
 ```
 ### Category\Upset.cshtml
-![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/pageUpsert.png)
+![image](https://github.com/heysam/SamLearningWork/blob/master/dotnetcore/BulkyBook/images/pageUpsert.png)
 ```@model BulkyBook.Models.Category
 <form method="post">    
     <div class="row p-3 border">
